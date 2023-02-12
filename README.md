@@ -2,11 +2,11 @@
 
 This is a simple Tic Tac Toe game implemented in Python, with a graphical interface created using the turtle library.
 
-# Prerequisites
+## Prerequisites
 * Python 3.x installed on your system
 * The turtle library installed, which is a part of the standard Python library and does not require any additional installation.
 
-# Setting up the environment
+## Setting up the environment
 
 1. Open a terminal or command prompt window.
 2. Create a new directory for your project.
@@ -16,15 +16,15 @@ This is a simple Tic Tac Toe game implemented in Python, with a graphical interf
 6. Write or copy the code for the Tic Tac Toe game into the file.
 7. Save the file.
 
-# Running the game
+## Running the game
 
 * Open a terminal or command prompt window.
 * Change the current working directory to the project directory.
 * Run the following command to start the game:
+
 ```
 python3 tic_tac_toe.py
 ```
-
 
 ## Features
 
