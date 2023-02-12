@@ -51,5 +51,13 @@ def game_over(board):
         return True
     return False
 
+# Define the main game loop
+current_player = player_x
+for i in range(9):
+    screen.onclick(lambda x, y: draw_mark(current_player, int(x // 50), int(y // 50)))
+    if game_over(board):
+        break
+    current_player = player_o if current_player == player_x else player_x
+
 # Show the winner
 turtle.done()
